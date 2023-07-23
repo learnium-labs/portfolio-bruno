@@ -907,6 +907,14 @@ video {
   font-style: italic;
 }
 
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-tight{
+  line-height: 1.25;
+}
+
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
