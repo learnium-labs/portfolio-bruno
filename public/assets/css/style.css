@@ -674,6 +674,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-\[18rem\]{
+  max-width: 18rem;
+}
+
 .basis-32{
   flex-basis: 8rem;
 }
@@ -692,6 +696,14 @@ video {
 
 .basis-28{
   flex-basis: 7rem;
+}
+
+.basis-24{
+  flex-basis: 6rem;
+}
+
+.basis-36{
+  flex-basis: 9rem;
 }
 
 .flex-col{
