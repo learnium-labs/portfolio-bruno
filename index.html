@@ -3,10 +3,500 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/public/assets/css/style.css" />
   </head>
-  <body>
-    <h1 class="text-2xl font-semibold text-center">chuaks</h1>
+  <body class="font-montserrat text-base">
+    <div>
+      <div class="container m-auto">
+        <!-- navigation -->
+        <div class="flex items-center justify-between py-3">
+          <div class="flex items-center justify-between gap-3">
+            <div class=""><a href="/">Works</a></div>
+            <div class=""><a href="/contact">Contact</a></div>
+          </div>
+          <div class="logo order-first font-lora font-semibold text-xl">
+            Bruno 👨🏻‍💻
+          </div>
+          <div class="social-media hidden">
+            <div class="social-media-item">
+              <a href="https://www.linkedin.com/in/alexandre-roux-2b1b0b1b0/">
+                <i class="bx bx-user"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end navigation -->
+
+        <!-- intro heading -->
+        <div class="py-7">
+          <h3 class="text-center font-normal font-lora text-2xl">
+            Bruno Erdinson <br />
+            UI/UX Interaction Designer <br />
+            Based in Poland
+          </h3>
+        </div>
+        <!-- end intro heading -->
+
+        <!-- content -->
+        <div class="py-3">
+          <div class="flex flex-wrap gap-x-5 gap-y-10 justify-between">
+            <!-- avatar -->
+            <div class="basis-full relative">
+              <div
+                class="bruno w-[70%] m-auto pt-4 bg-avatar overflow-hidden rounded-full"
+              >
+                <img
+                  class="w-full"
+                  src="/public/assets/images/avatar.png"
+                  alt="bruno"
+                />
+              </div>
+            </div>
+            <!-- end avatar -->
+            <!-- bio right -->
+            <div class="basis-[46%] text-start flex flex-col font-lora">
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Biography
+                </h3>
+                <p>
+                  Work for money and design for love! <br />
+                  I'm Maman, an UI/UX Interaction Designer Live in Poland
+                </p>
+              </div>
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Contact
+                </h3>
+                <div>
+                  <p>Probolinggo, Indonesia</p>
+                  <p>rxhxxn27@gmail.com</p>
+                  <p>+62 0822 6979 2866</p>
+                </div>
+              </div>
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Services
+                </h3>
+                <div>
+                  <p>Website Design</p>
+                  <p>Mobile Application Design</p>
+                  <p>Animation</p>
+                </div>
+              </div>
+            </div>
+            <!-- end bio right -->
+            <!-- bio left -->
+            <div class="basis-[46%] text-end flex flex-col font-lora">
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Years of <br />
+                  experience
+                </h3>
+                <p class="text-xl font-semibold">8</p>
+              </div>
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Satisfitation <br />
+                  Clients
+                </h3>
+                <p class="text-xl font-semibold">100%</p>
+              </div>
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Clients on worldwide
+                </h3>
+                <p class="text-xl font-semibold">+57</p>
+              </div>
+              <div class="mb-5">
+                <h3 class="mb-2 text-lg font-semibold text-gray-500">
+                  Project Done
+                </h3>
+                <p class="text-xl font-semibold">457</p>
+              </div>
+            </div>
+            <!-- end bio left -->
+          </div>
+        </div>
+        <!-- end content -->
+
+        <!-- brands -->
+        <section class="py-16">
+          <div class="flex flex-wrap justify-center gap-6">
+            <div class="basis-28">
+              <img
+                class="w-full"
+                src="/public/assets/images/s-amazon.png"
+                alt="brand"
+              />
+            </div>
+            <div class="basis-28">
+              <img
+                class="w-full"
+                src="/public/assets/images/s-toptal.png"
+                alt="brand"
+              />
+            </div>
+            <div class="basis-40">
+              <img
+                class="w-full"
+                src="/public/assets/images/pnb.png"
+                alt="brand"
+              />
+            </div>
+            <div class="basis-28">
+              <img
+                class="w-full"
+                src="/public/assets/images/s-vision.png"
+                alt="brand"
+              />
+            </div>
+            <div class="basis-28">
+              <img
+                class="w-full"
+                src="/public/assets/images/s-google.png"
+                alt="brand"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- end brands -->
+        <hr />
+
+        <!-- my strength -->
+        <section class="py-16 font-lora">
+          <div class="">
+            <h1 class="mb-10 text-2xl text-center font-semibold text-slate-900">
+              My Strength
+            </h1>
+            <div class="flex flex-wrap justify-around gap-y-8">
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/figma.svg"
+                    alt="lg"
+                  />
+                  <h4>70%</h4>
+                </div>
+                <p class="text-center mt-2">Figma</p>
+              </div>
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/adobexd.svg"
+                    alt="lg"
+                  />
+                  <h4>80%</h4>
+                </div>
+                <p class="text-center mt-2">Adobe XD</p>
+              </div>
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/js.svg"
+                    alt="lg"
+                  />
+                  <h4>50%</h4>
+                </div>
+                <p class="text-center mt-2">Javascript</p>
+              </div>
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/reactjs.svg"
+                    alt="lg"
+                  />
+                  <h4>70%</h4>
+                </div>
+                <p class="text-center mt-2">React Js</p>
+              </div>
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/html5.svg"
+                    alt="lg"
+                  />
+                  <h4>90%</h4>
+                </div>
+                <p class="text-center mt-2">HTML5/CSS</p>
+              </div>
+              <div class="pill">
+                <div
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                >
+                  <img
+                    class="w-14"
+                    src="/public/assets/images/python.svg"
+                    alt="lg"
+                  />
+                  <h4>40%</h4>
+                </div>
+                <p class="text-center mt-2">Python</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end my strength -->
+        <hr />
+
+        <!-- education & experience -->
+        <section class="py-16 font-lora">
+          <div class="">
+            <h1 class="mb-10 text-2xl text-center font-semibold text-slate-900">
+              Education &amp; Experience
+            </h1>
+            <div class="flex flex-wrap gap-y-10 text-center">
+              <div class="basis-full">
+                <span class="font-semibold mb-5 block text-base text-gray-500"
+                  >2014</span
+                >
+                <h3 class="font-semibold">Bachelor Degree of Design</h3>
+                <p class="mb-3 text-gray-500 text-sm">RMIT University,</p>
+                <h3 class="font-semibold">UI/UX Design Certificate</h3>
+                <p class="text-gray-500 text-sm">University of Houston, US</p>
+              </div>
+              <div class="basis-full">
+                <span class="font-semibold mb-5 block text-base text-gray-500"
+                  >2015-2019</span
+                >
+                <h3 class="font-semibold">Design Internship</h3>
+                <p class="mb-3 text-gray-500 text-sm">CMC Corporation, UK</p>
+                <h3 class="font-semibold">Leader Graphic Design</h3>
+                <p class="mb-3 text-gray-500 text-sm">
+                  New Centery Media JSC, UK
+                </p>
+                <h3 class="font-semibold">Web Designer</h3>
+                <p class="mb-3 text-gray-500 text-sm">Freelance</p>
+                <h3 class="font-semibold">Web Designer/ Author</h3>
+                <p class="text-gray-500 text-sm">Envato Market</p>
+              </div>
+              <div class="basis-full">
+                <span class="font-semibold mb-5 block text-base text-gray-500"
+                  >2021 - PRESENT</span
+                >
+                <h3 class="font-semibold">Product Designer Management</h3>
+                <p class="mb-3 text-gray-500 text-sm">Dribbble LLC, US</p>
+                <h3 class="font-semibold">Art Director / Co-Founder</h3>
+                <p class="mb-3 text-gray-500 text-sm">Spotify</p>
+                <h3 class="font-semibold">Founder</h3>
+                <p class="mb-3 text-gray-500 text-sm">iDesign Megazine</p>
+                <h3 class="font-semibold">Author of The Book</h3>
+                <p class="text-gray-500 text-sm">
+                  Work for Money, Design for Love
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end education & experience -->
+        <hr />
+
+        <!-- latest produts -->
+        <section class="py-16">
+          <h1
+            class="mb-10 text-2xl text-center font-semibold text-slate-900 font-lora"
+          >
+            My Latest Project
+          </h1>
+          <div class="flex flex-wrap justify-center gap-7">
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/mobile-1.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Mobile Application</p>
+                <h3 class="font-semibold text-slate-900 text-lg">
+                  The Best Mentor Mobile
+                </h3>
+              </div>
+            </div>
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/mobile-3.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Mobile Application</p>
+                <h3 class="font-semibold text-slate-900 text-lg">
+                  News iOS Mobile App
+                </h3>
+              </div>
+            </div>
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/webdesign-2.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Web Design</p>
+                <h3 class="font-semibold text-slate-900 text-lg">
+                  Farmart - Organic & Grocery
+                </h3>
+              </div>
+            </div>
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/webdesign-1.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Web Design</p>
+                <h3 class="font-semibold text-slate-900 text-lg">
+                  Real Estate Website
+                </h3>
+              </div>
+            </div>
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/animation-1.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Animation</p>
+                <h3 class="font-semibold text-slate-900 text-lg">Foudre</h3>
+              </div>
+            </div>
+            <div
+              class="max-w-xs p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+            >
+              <div class="images-product">
+                <img src="/public/assets/images/animation-3.png" alt="" />
+              </div>
+              <div class="py-5">
+                <p class="font-medium text-gray-500">Animation</p>
+                <h3 class="font-semibold text-slate-900 text-lg">Origin</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end latest produts -->
+        <hr />
+
+        <!-- testimonials -->
+        <section class="py-16">
+          <h1
+            class="mb-10 text-2xl text-center font-semibold text-slate-900 font-lora"
+          >
+            Testimonial
+          </h1>
+          <div class="flex justify-center items-center gap-y-10 flex-wrap">
+            <div class="max-w-sm text-center">
+              <img
+                class="w-24 h-24 rounded-full m-auto"
+                src="/public/assets/images/yt-1.png"
+                alt=""
+              />
+              <h3 class="font-normal text-lg font-lora mt-2">John</h3>
+              <p class="italic font-medium my-1 text-sm text-indigo-600">
+                UI/UX Designer
+              </p>
+              <p class="text-gray-500">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias optio eius nihil similique?
+              </p>
+            </div>
+            <div class="max-w-sm text-center">
+              <img
+                class="w-24 h-24 rounded-full m-auto"
+                src="/public/assets/images/yt-2.png"
+                alt=""
+              />
+              <h3 class="font-normal text-lg font-lora mt-2">Natalia Lin</h3>
+              <p class="italic font-medium my-1 text-sm text-indigo-600">
+                Data Scientist
+              </p>
+              <p class="text-gray-500">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias optio eius nihil similique?
+              </p>
+            </div>
+            <div class="max-w-sm text-center">
+              <img
+                class="w-24 h-24 rounded-full m-auto"
+                src="/public/assets/images/yt-3.png"
+                alt=""
+              />
+              <h3 class="font-normal text-lg font-lora mt-2">Guen</h3>
+              <p class="italic font-medium my-1 text-sm text-indigo-600">
+                Web Developer
+              </p>
+              <p class="text-gray-500">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias optio eius nihil similique?
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- end testimonials -->
+        <hr />
+
+        <!-- callme -->
+        <section class="py-16 font-lora flex justify-center">
+          <div
+            class="flex items-center justify-center border-dashed border w-64 h-64 border-slate-500 rounded-full"
+          >
+            <div class="text-center">
+              <p class="text-sm text-gray-400">
+                DESCRIBE YOUR <br />
+                PROJECT
+              </p>
+              <h1 class="font-normal text-3xl my-2">
+                Call <br />
+                Maman
+              </h1>
+              <img class="w-14" src="/public/assets/images/arrow.svg" alt="" />
+            </div>
+          </div>
+        </section>
+        <!-- end callme -->
+        <hr />
+
+        <!-- footer -->
+        <footer>
+          <div class="flex gap-y-2 flex-col py-5 justify-center items-center">
+            <div class="col">
+              <p class="text-center text-sm text-gray-500">
+                © 2023 Created By Maman All Rights Reserved.
+              </p>
+            </div>
+            <div class="col">
+              <div class="flex justify-center items-center gap-2">
+                <a href="#"><i class="bx bxl-twitter text-xl"></i></a>
+                <a href="#"><i class="bx bxl-github text-xl"></i></a>
+                <a href="#"><i class="bx bxl-linkedin text-xl"></i></a>
+                <a href="#"><i class="bx bxl-facebook-circle text-xl"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end footer -->
+      </div>
+    </div>
   </body>
 </html>

@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bruno:after {
+  content: "";
+  position: absolute;
+  top: -2.5%;
+  right: 50%;
+  transform: translateX(50%);
+  width: 75%;
+  height: 105%;
+  border-radius: 200px;
+  border: dotted 2px #ddd;
+}

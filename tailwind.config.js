@@ -13,6 +13,14 @@ module.exports = {
           "2xl": "6rem",
         },
       },
+      colors: {
+        avatar: "rgb(111 112 112 / 8%)",
+        circle: "rgba(219, 219, 219, 0.24)",
+      },
+      fontFamily: {
+        lora: ["Lora", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],
