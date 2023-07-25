@@ -15,18 +15,19 @@
       <div class="container m-auto">
         <!-- navigation -->
         <div class="flex items-center justify-between py-3">
-          <div class="flex items-center justify-between gap-3">
+          <div class="flex items-center justify-between gap-3 md:order-first">
             <div class=""><a href="/">Works</a></div>
             <div class=""><a href="/contact">Contact</a></div>
           </div>
           <div class="logo order-first font-lora font-semibold text-xl">
             Bruno 👨🏻‍💻
           </div>
-          <div class="social-media hidden">
-            <div class="social-media-item">
-              <a href="https://www.linkedin.com/in/alexandre-roux-2b1b0b1b0/">
-                <i class="bx bx-user"></i>
-              </a>
+          <div class="social-media hidden md:block">
+            <div class="flex justify-center items-center gap-2">
+              <a href="#"><i class="bx bxl-twitter text-xl"></i></a>
+              <a href="#"><i class="bx bxl-github text-xl"></i></a>
+              <a href="#"><i class="bx bxl-linkedin text-xl"></i></a>
+              <a href="#"><i class="bx bxl-facebook-circle text-xl"></i></a>
             </div>
           </div>
         </div>
@@ -34,7 +35,9 @@
 
         <!-- intro heading -->
         <div class="py-7">
-          <h3 class="text-center font-normal font-lora text-xl">
+          <h3
+            class="text-center md:mt-5 font-normal font-lora text-xl md:text-2xl"
+          >
             Bruno Erdinson <br />
             UI/UX Interaction Designer <br />
             Based in Poland
@@ -44,11 +47,13 @@
 
         <!-- content -->
         <div class="py-3">
-          <div class="flex flex-wrap gap-y-10 justify-between">
+          <div
+            class="flex flex-wrap gap-y-10 justify-between md:justify-center"
+          >
             <!-- avatar -->
             <div class="basis-full relative">
               <div
-                class="bruno w-[70%] m-auto pt-4 bg-avatar overflow-hidden rounded-full"
+                class="bruno w-[70%] m-auto pt-4 bg-avatar overflow-hidden rounded-full md:w-1/2"
               >
                 <img
                   class="w-full"
@@ -64,7 +69,7 @@
                 <h3 class="mb-2 text-lg font-medium text-gray-500">
                   Biography
                 </h3>
-                <p>
+                <p class="md:pr-32">
                   Work for money and design for love! <br />
                   I'm Bruno, an UI/UX Interaction Designer Live in Poland
                 </p>
@@ -129,7 +134,7 @@
 
         <!-- brands -->
         <section class="py-16">
-          <div class="flex flex-wrap justify-center gap-6">
+          <div class="flex flex-wrap justify-center items-center gap-6">
             <div class="basis-24">
               <img
                 class="w-full"
@@ -176,7 +181,9 @@
             <h1 class="mb-10 text-2xl text-center font-semibold text-slate-900">
               My Strength
             </h1>
-            <div class="flex flex-wrap justify-center gap-x-5 gap-y-8">
+            <div
+              class="flex flex-wrap justify-center gap-x-5 gap-y-8 md:justify-between"
+            >
               <div class="pill">
                 <div
                   class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
@@ -267,8 +274,8 @@
             <h1 class="mb-10 text-2xl text-center font-semibold text-slate-900">
               Education &amp; Experience
             </h1>
-            <div class="flex flex-wrap gap-y-10 text-center">
-              <div class="basis-full">
+            <div class="flex flex-wrap gap-y-10 md:justify-between">
+              <div class="basis-full md:basis-1/3">
                 <span class="font-semibold mb-5 block text-base text-gray-500"
                   >2014</span
                 >
@@ -277,7 +284,7 @@
                 <h3 class="font-semibold">UI/UX Design Certificate</h3>
                 <p class="text-gray-500 text-sm">University of Houston, US</p>
               </div>
-              <div class="basis-full">
+              <div class="basis-full md:basis-1/3">
                 <span class="font-semibold mb-5 block text-base text-gray-500"
                   >2015-2019</span
                 >
@@ -292,7 +299,7 @@
                 <h3 class="font-semibold">Web Designer/ Author</h3>
                 <p class="text-gray-500 text-sm">Envato Market</p>
               </div>
-              <div class="basis-full">
+              <div class="basis-full md:basis-1/3">
                 <span class="font-semibold mb-5 block text-base text-gray-500"
                   >2021 - PRESENT</span
                 >
@@ -411,7 +418,9 @@
           >
             Testimonial
           </h1>
-          <div class="flex justify-center items-center gap-y-10 flex-wrap">
+          <div
+            class="flex justify-center items-center gap-y-10 flex-wrap md:gap-x-10"
+          >
             <div class="max-w-[18rem] text-center">
               <img
                 class="w-24 h-24 rounded-full m-auto"
@@ -463,7 +472,7 @@
         <hr />
 
         <!-- callme -->
-        <section class="py-16 font-lora flex justify-center">
+        <section class="py-16 font-lora flex justify-center md:scale-90">
           <div
             class="flex items-center justify-center border-dashed border w-64 h-64 border-slate-500 rounded-full"
           >

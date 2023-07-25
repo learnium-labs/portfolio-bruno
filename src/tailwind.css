@@ -14,3 +14,9 @@
   border-radius: 200px;
   border: dotted 2px #ddd;
 }
+
+@media (min-width: 768px) {
+  .bruno:after {
+    width: 55%;
+  }
+}
