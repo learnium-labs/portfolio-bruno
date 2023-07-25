@@ -20,3 +20,11 @@
     width: 55%;
   }
 }
+
+@media (min-width: 1024px) {
+  .bruno:after {
+    top: -4%;
+    width: 380px;
+    height: 108%;
+  }
+}
