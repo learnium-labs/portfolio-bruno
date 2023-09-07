@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.interaction {
+  @apply grayscale hover:grayscale-0 hover:-translate-y-1 cursor-pointer transition-all duration-200 ease-in-out;
+}
+
 ::-webkit-scrollbar {
   width: 7px;
   height: 7px;

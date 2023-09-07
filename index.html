@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./public/assets/css/style.css" />
+    <link rel="icon" href="./public/assets/favicon.svg" type="image/x-icon" />
   </head>
   <body class="font-montserrat text-base">
     <div>
@@ -19,12 +20,12 @@
             <div
               class="uppercase text-sm md:text-xs lg:font-semibold font-medium"
             >
-              <a href="/">Works</a>
+              <a href="#same">Works</a>
             </div>
             <div
               class="uppercase text-sm md:text-xs lg:font-semibold font-medium"
             >
-              <a href="/contact">Contact</a>
+              <a href="#same">Contact</a>
             </div>
           </div>
           <div class="logo order-first font-lora font-semibold text-xl">
@@ -56,7 +57,7 @@
         <!-- end intro heading -->
 
         <!-- content -->
-        <div class="py-3 lg:mt-10 lg:pt-5 lg:pb-16">
+        <div id="same" class="py-3 lg:mt-10 lg:pt-5 lg:pb-16 scroll-mt-12">
           <div
             class="flex flex-wrap gap-y-10 justify-between md:justify-center lg:justify-between lg:items-start"
           >
@@ -224,7 +225,7 @@
             >
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -237,7 +238,7 @@
               </div>
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -250,7 +251,7 @@
               </div>
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -263,7 +264,7 @@
               </div>
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -276,7 +277,7 @@
               </div>
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -289,7 +290,7 @@
               </div>
               <div class="pill">
                 <div
-                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36"
+                  class="flex flex-col gap-y-1 justify-center items-center rounded-full bg-circle w-24 h-36 interaction"
                 >
                   <img
                     class="w-14"
@@ -374,10 +375,14 @@
           </h1>
           <div class="flex flex-wrap justify-center gap-7">
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 shadow-sm transition-transform duration-300 ease-in-out text-center rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/mobile-1.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/mobile-1.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -391,10 +396,14 @@
               </div>
             </div>
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/mobile-3.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/mobile-3.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -408,10 +417,14 @@
               </div>
             </div>
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/webdesign-2.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/webdesign-2.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -425,10 +438,14 @@
               </div>
             </div>
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/webdesign-1.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/webdesign-1.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -442,10 +459,14 @@
               </div>
             </div>
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/animation-1.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/animation-1.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -459,10 +480,14 @@
               </div>
             </div>
             <div
-              class="max-w-[18rem] p-1 text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
+              class="max-w-[18rem] p-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out text-center shadow-sm rounded-lg overflow-hidden border border-slate-100 bg-white/70"
             >
               <div class="images-product">
-                <img src="./public/assets/images/animation-3.png" alt="" />
+                <img
+                  class="cursor-pointer"
+                  src="./public/assets/images/animation-3.png"
+                  alt=""
+                />
               </div>
               <div class="py-5">
                 <p
@@ -556,21 +581,27 @@
         <section
           class="py-16 font-lora flex justify-center md:scale-90 lg:py-20 lg:scale-100"
         >
-          <div
-            class="flex items-center justify-center border-dashed border w-64 h-64 border-slate-500 rounded-full"
-          >
-            <div class="text-center">
-              <p class="text-sm text-gray-400">
-                DESCRIBE YOUR <br />
-                PROJECT
-              </p>
-              <h1 class="font-normal text-3xl my-2">
-                Call <br />
-                Bruno
-              </h1>
-              <img class="w-14" src="./public/assets/images/arrow.svg" alt="" />
+          <a href="mailto:rohman.banana27@gmail.com">
+            <div
+              class="flex items-center justify-center border-dashed border w-64 h-64 border-slate-500 rounded-full hover:border-double hover:border-slate-500 hover:scale-105 transition-transform duration-300 ease-in-out"
+            >
+              <div class="text-center">
+                <p class="text-sm text-gray-400">
+                  DESCRIBE YOUR <br />
+                  PROJECT
+                </p>
+                <h1 class="font-normal text-3xl my-2">
+                  Call <br />
+                  Bruno
+                </h1>
+                <img
+                  class="w-14"
+                  src="./public/assets/images/arrow.svg"
+                  alt=""
+                />
+              </div>
             </div>
-          </div>
+          </a>
         </section>
         <!-- end callme -->
         <hr />
