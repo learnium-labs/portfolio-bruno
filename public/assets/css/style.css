@@ -913,6 +913,20 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0 0 0 / 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(125deg, #f5f5f5, #ddd);
+  border-radius: 10px;
+}
+
 .bruno:after {
   content: "";
   position: absolute;
@@ -1003,40 +1017,40 @@ video {
     order: -9999;
   }
 
-  .lg\:mt-10{
-    margin-top: 2.5rem;
-  }
-
-  .lg\:mb-8{
-    margin-bottom: 2rem;
-  }
-
   .lg\:mb-10{
     margin-bottom: 2.5rem;
-  }
-
-  .lg\:mb-3{
-    margin-bottom: 0.75rem;
   }
 
   .lg\:mb-14{
     margin-bottom: 3.5rem;
   }
 
-  .lg\:h-\[480px\]{
-    height: 480px;
+  .lg\:mb-3{
+    margin-bottom: 0.75rem;
+  }
+
+  .lg\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .lg\:h-20{
     height: 5rem;
   }
 
-  .lg\:w-\[340px\]{
-    width: 340px;
+  .lg\:h-\[480px\]{
+    height: 480px;
   }
 
   .lg\:w-20{
     width: 5rem;
+  }
+
+  .lg\:w-\[340px\]{
+    width: 340px;
   }
 
   .lg\:basis-1\/3{
@@ -1048,21 +1062,15 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .lg\:scale-95{
-    --tw-scale-x: .95;
-    --tw-scale-y: .95;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:scale-110{
-    --tw-scale-x: 1.1;
-    --tw-scale-y: 1.1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .lg\:scale-100{
     --tw-scale-x: 1;
     --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:scale-95{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -1078,33 +1086,9 @@ video {
     justify-content: space-between;
   }
 
-  .lg\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
   .lg\:gap-x-10{
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
-  }
-
-  .lg\:gap-x-8{
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-
-  .lg\:py-8{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .lg\:py-10{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:py-12{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .lg\:py-20{
@@ -1112,14 +1096,13 @@ video {
     padding-bottom: 5rem;
   }
 
-  .lg\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  .lg\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
-  .lg\:py-14{
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+  .lg\:pb-16{
+    padding-bottom: 4rem;
   }
 
   .lg\:pr-36{
@@ -1130,12 +1113,9 @@ video {
     padding-top: 1.25rem;
   }
 
-  .lg\:pb-14{
-    padding-bottom: 3.5rem;
-  }
-
-  .lg\:pb-16{
-    padding-bottom: 4rem;
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-3xl{
@@ -1143,24 +1123,9 @@ video {
     line-height: 2.25rem;
   }
 
-  .lg\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-sm{
@@ -1168,12 +1133,17 @@ video {
     line-height: 1.25rem;
   }
 
-  .lg\:font-semibold{
-    font-weight: 600;
+  .lg\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 
   .lg\:font-medium{
     font-weight: 500;
+  }
+
+  .lg\:font-semibold{
+    font-weight: 600;
   }
 
   .lg\:text-gray-400{
